@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({
   totranslation: String
 });
 
-const userModel = mongoose.model("translations",userSchema)
+const userModel = mongoose.model("translationsDataMain",userSchema)
 module.exports = userModel
 
 
